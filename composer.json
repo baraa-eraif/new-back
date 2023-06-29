@@ -1,0 +1,23 @@
+{
+    "name": "new/back",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "New\\Back\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "BaraaEraif",
+            "email": "baraa1baraa1baraa@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^8.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "New\\Back\\Tests" : "tests"
+        }
+    }
+}
